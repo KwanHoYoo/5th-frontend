@@ -6,12 +6,12 @@
 ### 깃 리드미 템플릿 🖍️
 
 [<img src="https://img.shields.io/badge/-readme.md-important?style=flat&logo=google-chrome&logoColor=white" />]() [<img src="https://img.shields.io/badge/-tech blog-blue?style=flat&logo=google-chrome&logoColor=white" />]() [<img src="https://img.shields.io/badge/release-v0.0.0-ㅎㄱㄷ두?style=flat&logo=google-chrome&logoColor=white" />]() 
-<br/> [<img src="https://img.shields.io/badge/프로젝트 기간-2022.12.10~2022.12.19-fab2ac?style=flat&logo=&logoColor=white" />]()
+<br/> ()
 
 </div> 
 
 ## 📝 소개
-프론트엔드 깃 레파지토리의 README.md를 빠르게 작성하기 위해 만든 템플릿입니다.
+클라우드 엔지니어링 5기 프론트 엔드 레포지토리 입니다.
 
 다음과 같은 내용을 작성할 수 있습니다.
 - 프로젝트 소개
