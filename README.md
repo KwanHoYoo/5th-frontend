@@ -6,7 +6,7 @@
 ### 깃 리드미 템플릿 🖍️
 
 [<img src="https://img.shields.io/badge/-readme.md-important?style=flat&logo=google-chrome&logoColor=white" />]() [<img src="https://img.shields.io/badge/-tech blog-blue?style=flat&logo=google-chrome&logoColor=white" />]() [<img src="https://img.shields.io/badge/release-v0.0.0-ㅎㄱㄷ두?style=flat&logo=google-chrome&logoColor=white" />]() 
-<br/> ()
+<br/> 
 
 </div> 
 
@@ -20,6 +20,6 @@
 - 기술적 이슈와 해결 과정
 - 프로젝트 팀원
 
-필요한 기술 스택에 대한 logo는 [skills 폴더](/skills/)에서 다운로드 받을 수 있습니다.
+
 
 <br />
