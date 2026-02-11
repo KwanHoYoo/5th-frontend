@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>고객 만족도 설문조사</title>
+</head>
+<body>
+
+    <h1>고객 만족도 설문조사</h1>
+
+    <form>
+        <p>
+            이름 <input type="text" name="name" required>
+        </p>
+
+        <p>
+            나이 <input type="number" name="age" min="1" max="100">
+        </p>
+
+        <p>
+            방문 경로<br>
+            <input type="radio" name="source" value="search"> 검색 엔진<br>
+            <input type="radio" name="source" value="ad"> 광고<br>
+            <input type="radio" name="source" value="friend"> 지인 추천
+        </p>
+
+        <p>
+            관심 주제 (복수 선택 가능)<br>
+            <input type="checkbox" name="interest" value="tech"> 기술<br>
+            <input type="checkbox" name="interest" value="design"> 디자인<br>
+            <input type="checkbox" name="interest" value="marketing"> 마케팅
+        </p>
+
+        <p>
+            방문 빈도
+            <select name="frequency">
+                <option value="">선택하세요</option>
+                <option value="daily">매일</option>
+                <option value="weekly">주 1회</option>
+                <option value="monthly">월 1회</option>
+            </select>
+        </p>
+
+        <p>
+            추가 의견<br>
+            <textarea name="comments" rows="5" cols="40" placeholder="개선 사항이나 의견을 자유롭게 작성해주세요"></textarea>
+        </p>
+
+        <p>
+            <input type="submit" value="제출하기">
+        </p>
+    </form>
+
+</body>
+</html>
