@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        //선언식
+        function add(x ,y){
+            return x + y;
+        }
+        let result = add(10,20);
+        console.log(result);
+
+        //표현식
+        let sub = function(a,b) {
+            return a - b;
+        }
+        console.log(sub(5,3));
+
+        //화살표함수 =>
+        let arrowSub = (x,y) => x - y;
+        console.log(arrowSub(10,20));
+        
+
+        //콜백 함수
+
+        function print(information){
+            information();
+        }
+
+
+        function info(){
+            console.log('javascript');
+        }
+        print(info);
+
+
+    </script>
+</body>
+</html>
