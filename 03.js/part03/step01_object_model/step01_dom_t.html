@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <style>
+        .red {
+            color: #ff0000;
+        }
+        .blue {
+            color: #0000ff;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>Cities</h1>
+        <ul>
+            <li id="seoul" class="red">서울</li>
+            <li id="tokyo" class="red">도쿄</li>
+            <li id="beijing" class="red">베이징</li>
+            <li id="newyork">뉴욕</li>
+        </ul>
+    </div>
+
+    <script>
+        // console.log(document.getElementById('seoul'));
+        // console.log(document.querySelector('li#beijing'));
+        // console.log(document.getElementsByTagName('li'));
+        // console.log(document.getElementsByClassName('red'));
+        const elements = document.getElementsByClassName('red');
+        // console.log(elements);
+
+        // for (let i = 0; i < elements.length; i++) {
+        //     const element = elements[i];
+        //     element.className = 'blue';
+
+        // }
+
+        // v2
+        const queryElements = document.querySelectorAll('.red');
+        console.log(queryElements);
+        queryElements.forEach((el) => el.className = 'blue');
+
+
+    </script>
+
+
+</body>
